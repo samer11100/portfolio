@@ -151,10 +151,10 @@ section.landing .container img {
   position: absolute;
   left: 85%;
   top: 20%;
-  animation: shadow 15s infinite;
+  animation: move 15s infinite;
 }
 
-@keyframes shadow {
+@keyframes move {
     0%,20%,40%,60%,80%,100% {
         translate: 0 5px;
     }
